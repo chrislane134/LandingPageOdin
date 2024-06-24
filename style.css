@@ -153,4 +153,37 @@ body{
     font-weight: 900;
 }
 
+.call{
+    display:flex;
+    background-color: #3882f6;
+    margin-top: 3%;
+    margin-left: 25%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+    border-radius: 10px;
+    padding: 40px 20px;
+
+}
+
+
+
+.calltext {
+    flex-shrink: 0;
+   margin-left: 90px;
+    color:#F9FAF8;
+    
+}
+
+.signup{
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: #3881F6;
+    color:white;
+    border: 2px solid white ;
+    margin-right: 80px;
+}
+
+
+
 
