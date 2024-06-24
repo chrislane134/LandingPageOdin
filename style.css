@@ -113,8 +113,9 @@ body{
 
 .image-container img {
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 10px;
+    border: 3px solid #3882f6;
     
 }
 
@@ -158,6 +159,7 @@ body{
     background-color: #3882f6;
     margin-top: 3%;
     margin-left: 25%;
+    margin-bottom: 3%;
     justify-content: space-between;
     align-items: center;
     max-width: 50%;
@@ -185,5 +187,16 @@ body{
 }
 
 
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.footer p{
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+}
 
 
